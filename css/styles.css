@@ -22,12 +22,13 @@ a:hover {
 button:hover {
   color: #2196f3;
 }
+
 ul {
   list-style-type: none;
 }
 
 h1 {
-  color: black;
+  color: #ffffff;
   font-size: 44px;
   line-height: 60px;
   font-weight: 900;
@@ -39,6 +40,7 @@ h1 {
 .post-title {
   text-align: center;
 }
+
 .logo {
   font: raleway;
   font-style: normal;
@@ -50,11 +52,11 @@ h1 {
 .blue-text {
   color: #2196f3;
 }
-button {
+.button-first {
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
-  background-color: #f5f4fa;
+  background-color: 2196F3;
 }
 
 h4 {
@@ -79,9 +81,7 @@ address {
   font-weight: 400;
   color: #ffffff;
 }
-.footer-background {
-  background: 2F303A;
-}
+
 .person h4 {
   font-size: 16px;
   line-height: 18, 75px;
@@ -106,4 +106,14 @@ address {
   font-size: 16px;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.6);
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  background: #ffffff;
+}
+.main-descripton {
+  background-color: #2f303a;
+  width: 1600px;
+  height: 252px;
 }
