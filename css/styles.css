@@ -1,3 +1,7 @@
+* {
+  color: black;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #212121;
@@ -7,95 +11,99 @@ body {
 }
 a {
   text-decoration: none;
-}
-h1 {
-  color: #ffffff;
-  font-size: 44px;
-  line-height: 116%;
-  font-weight: 900;
-  width: 696px;
-  top: 280px;
-  left: 452px;
-}
-.paragraf {
-  background-color: #2f303a;
-  width: 1600px;
-  height: 600px;
-}
-button {
-  background-color: 2196F3;
-  color: FFFFFF;
-}
-h2 {
-  font-size: 36px;
-  line-height: 100%;
-  font-weight: 700;
-}
-h3 {
-  font-size: 14px;
-  line-height: 100%;
-  font-weight: 500;
-}
-
-.logo {
-  font: raleway;
-  color: #000000;
-  font-size: 26px;
-  line-height: 100%;
-  font-weight: 700;
-}
-
-h4 {
-  font-size: 14px;
-  line-height: 100%;
-  font-weight: 700;
-}
-.heading {
-  font-size: 16px;
-  line-height: 100%;
-  font-weight: 500;
-}
-p {
-  color: #757575;
-  font-size: 14px;
-  line-height: 100%;
-  font-weight: 400;
-}
-.list li {
-  font-size: 16px;
-  line-height: 139%;
-  font-weight: 500;
-}
-address {
-  color: #ffffff;
-  font-size: 14px;
-  line-height: 146%;
-  font-weight: 400;
+  width: 58px;
+  height: 16px;
+  top: 32px;
+  left: 55px;
 }
 a:hover {
   color: #2196f3;
 }
-.list .sing:hover {
+button:hover {
   color: #2196f3;
 }
-.job {
-  color: #757575;
+ul {
+  list-style-type: none;
+}
+
+h1 {
+  color: black;
+  font-size: 44px;
+  line-height: 60px;
+  font-weight: 900;
+  width: 696px;
+  top: 280px;
+  left: 452px;
+  background-color: 2F303A;
+}
+.post-title {
+  text-align: center;
+}
+.logo {
+  font: raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+.blue-text {
+  color: #2196f3;
+}
+button {
+  font-weight: 700;
   font-size: 16px;
-  line-height: 100%;
-  font-weight: 400;
+  line-height: 30px;
+  background-color: #f5f4fa;
 }
-footer {
-  background-color: #2f303a;
-  width: 1600px;
-  height: 252px;
-}
-.contact {
-  color: #ffffff;
+
+h4 {
   font-size: 14px;
-  line-height: 146%;
+  line-height: 16px;
+  font-weight: 700;
+}
+.text {
+  font-size: 14px;
+  line-height: 24px;
   font-weight: 400;
 }
-.photo {
-  size: 18px;
-  weight: 700;
+h2 {
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: 700;
+  text-align: center;
+}
+address {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.footer-background {
+  background: 2F303A;
+}
+.person h4 {
+  font-size: 16px;
+  line-height: 18, 75px;
+  font-weight: 500;
+}
+.job {
+  font-size: 16px;
+  line-height: 18, 75px;
+  font-weight: 400;
+  color: #757575;
+}
+.projects h4 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.example {
+  font-size: 16px;
+  font-weight: 400;
+  color: #757575;
+}
+.footer-contact {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.6);
 }
