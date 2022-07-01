@@ -2,3 +2,100 @@ body {
   font-family: "Roboto", sans-serif;
   color: #212121;
 }
+.pointer {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  color: #ffffff;
+  font-size: 44px;
+  line-height: 116%;
+  font-weight: 900;
+  width: 696px;
+  top: 280px;
+  left: 452px;
+}
+.paragraf {
+  background-color: #2f303a;
+  width: 1600px;
+  height: 600px;
+}
+button {
+  background-color: 2196F3;
+  color: FFFFFF;
+}
+h2 {
+  font-size: 36px;
+  line-height: 100%;
+  font-weight: 700;
+}
+h3 {
+  font-size: 14px;
+  line-height: 100%;
+  font-weight: 500;
+}
+
+.logo {
+  font: raleway;
+  color: #000000;
+  font-size: 26px;
+  line-height: 100%;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 14px;
+  line-height: 100%;
+  font-weight: 700;
+}
+.heading {
+  font-size: 16px;
+  line-height: 100%;
+  font-weight: 500;
+}
+p {
+  color: #757575;
+  font-size: 14px;
+  line-height: 100%;
+  font-weight: 400;
+}
+.list li {
+  font-size: 16px;
+  line-height: 139%;
+  font-weight: 500;
+}
+address {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 146%;
+  font-weight: 400;
+}
+a:hover {
+  color: #2196f3;
+}
+.list .sing:hover {
+  color: #2196f3;
+}
+.job {
+  color: #757575;
+  font-size: 16px;
+  line-height: 100%;
+  font-weight: 400;
+}
+footer {
+  background-color: #2f303a;
+  width: 1600px;
+  height: 252px;
+}
+.contact {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 146%;
+  font-weight: 400;
+}
+.photo {
+  size: 18px;
+  weight: 700;
+}
