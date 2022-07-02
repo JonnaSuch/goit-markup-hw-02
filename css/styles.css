@@ -3,12 +3,10 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Raleway", sans-serif;
   color: #212121;
 }
-.pointer {
-  cursor: pointer;
-}
+
 a {
   text-decoration: none;
   width: 58px;
@@ -42,8 +40,7 @@ h1 {
 }
 
 .logo {
-  font: raleway;
-  font-style: normal;
+  font: Raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
@@ -57,6 +54,10 @@ h1 {
   font-size: 16px;
   line-height: 30px;
   background-color: 2196F3;
+  cursor: pointer;
+}
+.button-second {
+  cursor: pointer;
 }
 
 h4 {
