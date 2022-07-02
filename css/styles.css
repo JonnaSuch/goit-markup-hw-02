@@ -6,14 +6,17 @@ body {
   font-family: "Roboto", "Raleway", sans-serif;
   color: #212121;
 }
-
-a {
+.link {
   text-decoration: none;
   width: 58px;
   height: 16px;
   top: 32px;
   left: 55px;
 }
+.nav-button a {
+  text-decoration: none;
+}
+
 a:hover {
   color: #2196f3;
 }
@@ -21,30 +24,21 @@ button:hover {
   color: #2196f3;
 }
 
-ul {
+.ul {
   list-style-type: none;
 }
 
-h1 {
-  color: #ffffff;
-  font-size: 44px;
-  line-height: 60px;
-  font-weight: 900;
-  width: 696px;
-  top: 280px;
-  left: 452px;
-  background-color: 2F303A;
-}
 .post-title {
   text-align: center;
 }
 
 .logo {
-  font: Raleway;
+  font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 .blue-text {
   color: #2196f3;
@@ -60,7 +54,7 @@ h1 {
   cursor: pointer;
 }
 
-h4 {
+.h4 {
   font-size: 14px;
   line-height: 16px;
   font-weight: 700;
@@ -70,13 +64,13 @@ h4 {
   line-height: 24px;
   font-weight: 400;
 }
-h2 {
+.h2 {
   font-size: 36px;
   line-height: 42px;
   font-weight: 700;
   text-align: center;
 }
-address {
+.address {
   font-size: 14px;
   line-height: 24px;
   font-weight: 400;
@@ -107,14 +101,22 @@ address {
   font-size: 16px;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 .wrapper {
   display: flex;
   justify-content: center;
   background: #ffffff;
+  list-style-type: none;
 }
 .main-descripton {
   background-color: #2f303a;
-  width: 1600px;
-  height: 252px;
+  color: #ffffff;
+  font-size: 44px;
+  line-height: 60px;
+  font-weight: 900;
+  width: 696px;
+  top: 280px;
+  left: 452px;
+  text-decoration: none;
 }
