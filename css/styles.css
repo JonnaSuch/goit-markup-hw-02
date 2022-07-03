@@ -6,6 +6,11 @@ body {
   font-family: "Roboto", "Raleway", sans-serif;
   color: #212121;
 }
+:root {
+  --brand-color: #2196f3;
+  --color-secondary: #ffffff;
+  --color-third: #757575;
+}
 .link {
   text-decoration: none;
   width: 58px;
@@ -18,10 +23,11 @@ body {
 }
 
 a:hover {
-  color: #2196f3;
+  color: var(--brand-color);
 }
 button:hover {
-  color: #2196f3;
+  background-color: var(--brand-color);
+  color: var(--color-secondary);
 }
 
 .ul {
@@ -41,14 +47,15 @@ button:hover {
   text-decoration: none;
 }
 .blue-text {
-  color: #2196f3;
+  color: var(--brand-color);
 }
 .button-first {
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
-  background-color: 2196F3;
+  background-color: var(--brand-color);
   cursor: pointer;
+  color: var(--color-secondary);
 }
 .button-second {
   cursor: pointer;
@@ -74,7 +81,8 @@ button:hover {
   font-size: 14px;
   line-height: 24px;
   font-weight: 400;
-  color: #ffffff;
+  color: var(--color-secondary);
+  font-style: normal;
 }
 
 .person h4 {
@@ -85,8 +93,7 @@ button:hover {
 .job {
   font-size: 16px;
   line-height: 18, 75px;
-  font-weight: 400;
-  color: #757575;
+  color: var(--color-third);
 }
 .projects h4 {
   font-size: 18px;
@@ -94,24 +101,23 @@ button:hover {
 }
 .example {
   font-size: 16px;
-  font-weight: 400;
-  color: #757575;
+  color: var(--color-third);
 }
 .footer-contact {
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 14px;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+  line-height: 24px;
 }
 .wrapper {
   display: flex;
   justify-content: center;
-  background: #ffffff;
+  background: var(--color-secondary);
   list-style-type: none;
 }
 .main-descripton {
   background-color: #2f303a;
-  color: #ffffff;
+  color: var(--color-secondary);
   font-size: 44px;
   line-height: 60px;
   font-weight: 900;
